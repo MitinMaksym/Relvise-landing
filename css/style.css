@@ -36,8 +36,9 @@ html,
 body {
   height: 100%;
   line-height: 1;
-  font-size: 16px;
-  color: #000;
+  color: #252b42;
+  font-weight: 500;
+  font-size: 14px;
   font-family: Montserrat;
 }
 
@@ -46,7 +47,85 @@ body {
   overflow: hidden;
 }
 
-._constainer {
+._container {
   max-width: 1046px;
   margin: 0 auto;
+  padding: 0px 15px; /* Отступ безопасности*/
+  box-sizing: content-box;
+}
+
+/* -----------------------------Header---------------------------------- */
+
+.header {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 50;
+}
+
+.header__container {
+  display: flex;
+  min-height: 104px;
+  align-items: center;
+}
+
+@media (max-width: 479px) {
+  .header__container {
+    min-height: 70px;
+  }
+}
+
+.header__logo {
+  font-size: 24px;
+  font-weight: 700;
+  color: inherit;
+  margin: 0px 133px 0px 0px;
+}
+
+.header__menu {
+}
+
+@media (max-width: 992px) {
+  .header__logo {
+    margin: 0px 80px 0px 0px;
+  }
+}
+
+@media (max-width: 767px) {
+  .header__logo {
+    margin: 0px 40px 0px 0px;
+  }
+}
+
+@media (max-width: 479px) {
+  .header__logo {
+    margin: 0px 20px 0px 0px;
+  }
+}
+
+.menu {
+  padding: 5px 0; /* Чтобы меню не прижималось вверху*/
+}
+
+.menu__list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.menu__item:not(:last-child) {
+  margin: 0px 21px 0px 0px;
+}
+
+.menu__link {
+  color: #737373;
+  line-height: 171%;
+  font-weight: 600;
+}
+
+@media (max-width: 479px) {
+  .menu__link {
+    font-size: 18px;
+  }
 }
