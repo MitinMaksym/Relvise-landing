@@ -160,6 +160,9 @@ body {
   margin-top: -111px;
 }
 
+.page__advantages {
+}
+
 /* ----------------------------------------MAIN BLOCK------------------------------------ */
 
 .main-block {
@@ -363,4 +366,43 @@ body {
   line-height: 143%;
   letter-spacing: 0.2px;
   color: #737373;
+}
+
+/* -----------------------------------Advantages------------------------------------- */
+
+
+.advantages {
+}
+
+.advantages__container {
+}
+
+.advantages__header {
+}
+
+.header-block {
+}
+
+.header-block__title {
+}
+
+.header-block__sub-title {
+}
+
+.advantages__body {
+}
+
+.advantages__column {
+}
+
+.advantages__item {
+}
+
+.advantages__icon {
+}
+
+.advantages__value {
+}
+
+.advantages__text {
 }
