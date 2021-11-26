@@ -180,6 +180,9 @@ body {
 .page__getintouch {
 }
 
+.page__contactus {
+}
+
 
 /* --------------------------------------HEADER-BLOCK----------------------------------- */
 .header-block {
@@ -1034,4 +1037,80 @@ body {
     flex: 0 1 33.333%;
   }
 }
+
+/* -------------------------------------------------CONTACTUS---------------------------------------------- */
+
+.contactus {
+  background-color: #fff;
+}
+
+.contactus__container {
+}
+
+
+.contactus__body {
+  padding: 40px 0px;
+  margin: 0px 0px -10px 0px;
+
+}
+
+.contactus__content {
+  padding: 0px 0px 20px 0px;
+}
+
+.contactus__title {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 133%;
+  letter-spacing: 0.1px;
+}
+
+.contactus__title:not(:last-child){
+  margin: 0px 0px 10px 0px;
+
+}
+
+.contactus__text {
+  line-height: 143%;
+  letter-spacing: 0.2px;
+  color: #737373;
+}
+
+.contactus__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 200%;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #FFFFFF;
+  background: #FF7B47;
+  border-radius: 5px;
+  min-height: 58px;
+  padding: 5px 40px;
+  transition: background-color 0.3s ease;
+}
+
+.contactus__button:hover {
+  background: #d65420;
+}
+
+
+@media (min-width: 767px) {
+  .contactus__body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .contactus__content {
+    padding: 0px 20px 0px 0px;
+  }
+}
+
+
+
 
